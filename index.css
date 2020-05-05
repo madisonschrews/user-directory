@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+body{
+    font-family: Dosis, sans-serif;
+    background-color: chartreuse;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+#userForm{
+    padding: 1rem;
+    background-color: lightslategrey;
+    border: 1px solid black;
+}
+
+dl{
+    padding: 1rem;
+}
+
+dl li{
+    list-style: none;
+    margin-top: 1rem;
+}
+
+/* dl :nth-of-type(even){
+    background-color: aqua
+} */
+
+#users{
+    font-size: 150%;
+}
+
+#l1{
+   font-size: 150%;
+   width: 200px;
+   text-align: right;
+   display: inline-block;
+   vertical-align:middle;
+}
+
+#i1{
+    font-size: 150%;
+    
+}
+
+#l2{
+    font-size: 150%;
+    width: 200px;
+    text-align: right;
+    display: inline-block;
+    vertical-align:middle;
+ }
+ 
+ #i2{
+     font-size: 150%;
+ }
+
+ #l3{
+    font-size: 150%;
+    width: 200px;
+    text-align: right;
+    display: inline-block;
+    vertical-align:middle;
+ }
+ 
+ #i3{
+     font-size: 150%;
+     display: inline-block;
+     height: 2rem;
+     width: 16rem;
+ }
+
+ #b1{
+    width: 5rem;
+    height: 3rem;
+    background-color: aqua;
+    margin-left: 5%
+}
+
+#b2{
+    width: 5rem;
+    height: 3rem;
+    background-color: aqua;
+    margin-left: 5rem;
+}
+
+#b3{
+    width: 5rem;
+    height: 3rem;
+    background-color: aqua;
+    margin-left: 5rem;
+}

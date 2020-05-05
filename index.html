@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>User Directory</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1 align="center">User Directory</h1>
+  <main>
+  <form id="userForm">
+    <p>
+      <label for="userName" id="l1">Name: </label>
+      <input type="text" name="userName" id="i1"autofocus>
+    </p>
+    <p>
+      <label for="age" id="l2">Age: </label>
+      <input type="number" name="age" id="i2">
+    </p>
+    <p>
+      <label for="favoriteColor" id="l3">Favorite Color: </label>
+      <input type="color" name="favoriteColor" id="i3">
+    </p>
+
+    <button type="submit" id="b1">Go</button>
+    <button type="reset" id="b2">Clear</button>
+    <button type="button" id="b3">Clear List</button>
+  </form>
+  
+  <div id="users"></div>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
